@@ -1,0 +1,32 @@
+{
+    "env": {
+        "browser": true
+    },
+    "extends": [
+        "airbnb-base",
+        "prettier",
+        "plugin:react/recommended"
+    ],
+    "plugins": [
+        "prettier",
+        "react",
+        "babel"
+    ],
+    "rules": {
+        "react/prop-types": [2, { "ignore": [ "children" ] }],
+        "no-return-assign": 1,
+        "import/no-extraneous-dependencies": 0,
+        "no-extra-boolean-cast": 0,
+        "prettier/prettier": ["error"],
+        "yoda": "off",
+        "babel/semi": 1,
+        "no-script-url": 0,
+        "consistent-return": 0,
+        "no-restricted-syntax": 0,
+        "no-else-return": 0,
+        "linebreak-style": 0,
+        "import/no-named-default": 0,
+        "react/react-in-jsx-scope": 0,
+        "react/display-name": 0
+    }
+}
